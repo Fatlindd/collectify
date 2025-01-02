@@ -102,7 +102,7 @@ for i in range(0, len(filtered_python_tool), 3):
                     <p class="card-title">{ext['name']}</p>
                     <p class="card-description">{ext['description']}</p>
                     <a href="{ext['store_link']}" target="_blank">
-                        <button class="card-button">Visit Website</button>
+                        <button class="card-button">More Details</button>
                     </a>
                 </div>
             """, unsafe_allow_html=True)
