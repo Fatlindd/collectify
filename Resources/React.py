@@ -6,7 +6,7 @@ content = "Tools and resources for React developers."
 # List of extensions with descriptions and Chrome Web Store links
 REACT_TOOLS = [
 {
-        "name": "transform.tools/html-to-jsx",
+        "name": "https://daisyui.com",
         "description": "DaisyUI is a Tailwind CSS component library offering pre-designed, customizable UI elements like buttons, cards, and forms. It simplifies styling with utility classes and supports themes and responsiveness.",
         "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLzPQOCuOUsuH_DvFeovdWoQdXC3AQgLNXSqFwmoljvyiLIrSvhLXnuYON9lGguW7zOm8&usqp=CAU",
         "store_link": "https://daisyui.com/",
