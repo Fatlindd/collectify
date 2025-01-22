@@ -5,6 +5,13 @@ content = "Here are some APIs you can use for free."
 
 # List of extensions with descriptions and Chrome Web Store links
 FREE_API_TOOLS = [
+{
+        "name": "edamam.com",
+        "description": "Edamam provides nutrition analysis, recipe search, and meal planning tools. It offers APIs for developers to access detailed food data, calorie counts, and dietary information for various needs.",
+        "logo_url": "https://cdn-icons-png.flaticon.com/512/2164/2164832.png",
+        "store_link": "https://www.edamam.com/",
+        "button_name": "Visit Website"
+    },
     {
         "name": "jsonplaceholder.typicode.com",
         "description": "JSONPlaceholder is a free online REST API for testing and prototyping. It provides fake data for resources like posts, comments, and users, making it ideal for developers building and testing applications.",
