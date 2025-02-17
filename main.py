@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Import the resources dynamically based on selected menu
-from Resources import home, Api_Free, Chrome_Extensions, Frontend_Tools, Icons_Website, Python_And_AI, React, Django, VSCode_Extensions, Web_Scraping, style, Useful_Websites, Programming_Tools, Youtube_Tutorials, Web_Design, Artificial_Intelligence
+from Resources import home, Api_Free, Chrome_Extensions, Frontend_Tools, Icons_Website, Python_And_AI, React, Django, VSCode_Extensions, Web_Scraping, style, Useful_Websites, Programming_Tools, Youtube_Tutorials, Web_Design, Artificial_Intelligence, Chatgpt_prompts
 
 # Set Streamlit layout to wide mode
 st.set_page_config(page_title="Useful Tools", page_icon=":zap:", layout="wide")
@@ -23,7 +23,8 @@ PAGE_MODULES = {
     "Programming Tools": Programming_Tools,
     "Youtube Tutorials": Youtube_Tutorials,
     "Artificial Intelligence": Artificial_Intelligence,
-    "Web Design": Web_Design
+    "Web Design": Web_Design,
+    "ChatGPT Prompts": Chatgpt_prompts
 }
 
 # 1. Sidebar menu with all the required items
@@ -33,7 +34,7 @@ with st.sidebar:
         list(PAGE_MODULES.keys()),  # Dynamically use the keys of the PAGE_MODULES dict
         icons=[
             "house", "cloud", "puzzle", "tools", "palette", "terminal", 
-            "code-slash", "server", "link", "plug", "search", "gear", "youtube", "robot", "brush"
+            "code-slash", "server", "link", "plug", "search", "gear", "youtube", "robot", "brush", "chat-dots"
         ],
         menu_icon="cast",
         default_index=0
@@ -43,6 +44,14 @@ with st.sidebar:
 def display_tools(page_module, tools_list, custom_css):
     # Inject custom CSS
     st.markdown(custom_css, unsafe_allow_html=True)
+
+    if page_module == Chatgpt_prompts:
+        for tool in tools_list:
+            st.write("📌 " + tool['used'])
+            st.code(tool['description'])
+            st.divider()
+            # print(tool['used'])
+        return
 
     # Filter tools based on the search term
     filtered_tools = [
@@ -76,7 +85,7 @@ if selected in PAGE_MODULES:
     st.markdown(page.content)
     st.divider()
 
-    if selected != "Home":
+    if selected != "Home" and selected != "ChatGPT Prompts":
         # Global search input outside of specific page logic
         search_term = st.text_input("Search:", "")
 
@@ -109,6 +118,8 @@ if selected in PAGE_MODULES:
         display_tools(Web_Design, Web_Design.WEB_DESIGN, style.STYLE_CSS)
     elif selected == 'Artificial Intelligence':
         display_tools(Artificial_Intelligence, Artificial_Intelligence.ARTIFICIAL_INTELLIGENCE, style.STYLE_CSS)
+    elif selected == 'ChatGPT Prompts':
+        display_tools(Chatgpt_prompts, Chatgpt_prompts.CHATGPT_PROMPTS, style.STYLE_CSS)
 
 
 
