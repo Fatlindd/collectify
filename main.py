@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Import the resources dynamically based on selected menu
-from Resources import home, Api_Free, Chrome_Extensions, Frontend_Tools, Icons_Website, Python_And_AI, React, Django, VSCode_Extensions, Web_Scraping, style, Useful_Websites, Programming_Tools, Youtube_Tutorials
+from Resources import home, Api_Free, Chrome_Extensions, Frontend_Tools, Icons_Website, Python_And_AI, React, Django, VSCode_Extensions, Web_Scraping, style, Useful_Websites, Programming_Tools, Youtube_Tutorials, Web_Design, Artificial_Intelligence
 
 # Set Streamlit layout to wide mode
 st.set_page_config(page_title="Useful Tools", page_icon=":zap:", layout="wide")
@@ -21,7 +21,9 @@ PAGE_MODULES = {
     "Web Scraping": Web_Scraping,
     "Useful Websites": Useful_Websites,
     "Programming Tools": Programming_Tools,
-    "Youtube Tutorials": Youtube_Tutorials
+    "Youtube Tutorials": Youtube_Tutorials,
+    "Artificial Intelligence": Artificial_Intelligence,
+    "Web Design": Web_Design
 }
 
 # 1. Sidebar menu with all the required items
@@ -31,7 +33,7 @@ with st.sidebar:
         list(PAGE_MODULES.keys()),  # Dynamically use the keys of the PAGE_MODULES dict
         icons=[
             "house", "cloud", "puzzle", "tools", "palette", "terminal", 
-            "code-slash", "server", "link", "plug", "search", "gear"
+            "code-slash", "server", "link", "plug", "search", "gear", "youtube", "robot", "brush"
         ],
         menu_icon="cast",
         default_index=0
@@ -103,3 +105,11 @@ if selected in PAGE_MODULES:
         display_tools(Programming_Tools, Programming_Tools.PROGRAMMING_TOOLS, style.STYLE_CSS)
     elif selected == 'Youtube Tutorials':
         display_tools(Youtube_Tutorials, Youtube_Tutorials.YOUTUBE_TUTORIALS, style.STYLE_CSS)
+    elif selected == 'Web Design':
+        display_tools(Web_Design, Web_Design.WEB_DESIGN, style.STYLE_CSS)
+    elif selected == 'Artificial Intelligence':
+        display_tools(Artificial_Intelligence, Artificial_Intelligence.ARTIFICIAL_INTELLIGENCE, style.STYLE_CSS)
+
+
+
+        

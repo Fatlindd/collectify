@@ -27,20 +27,6 @@ REACT_TOOLS = [
         "button_name": "Visit Website"
     },
     {
-        "name": "Bolt.new",
-        "description": "Bolt.new is a simple and fast platform that allows users to create new projects or files with a single click, streamlining workflow and reducing setup time for developers and creators.",
-        "logo_url": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
-        "store_link": "https://bolt.new/",
-        "button_name": "Visit Website"
-    },
-    {
-        "name": "v0.dev",
-        "description": "V0.dev is a platform that enables developers to quickly build and deploy applications with minimal code, focusing on simplicity and speed to accelerate development and reduce complexity in the process.",
-        "logo_url": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
-        "store_link": "https://v0.dev/",
-        "button_name": "Visit Website"
-    },
-    {
         "name": "ui.shadcn.com",
         "description": "ShadCN UI is a customizable UI component library for React, built using Radix UI and Tailwind CSS, enabling seamless design integration with pre-built, easily adjustable components for faster development.",
         "logo_url": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",

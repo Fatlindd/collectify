@@ -5,7 +5,21 @@ content = "Here are some APIs you can use for free."
 
 # List of extensions with descriptions and Chrome Web Store links
 FREE_API_TOOLS = [
-{
+    {
+        "name": "🌟 Publicapis.dev 🌟",
+        "description": "PublicAPIs.dev is a platform that provides a curated collection of free APIs for developers. It offers a wide range of public APIs across various categories, making it easy to find and integrate data sources.",
+        "logo_url": "https://avatars.githubusercontent.com/u/164544218?s=200&v=4",
+        "store_link": "https://publicapis.dev/",
+        "button_name": "Visit Website"
+    },
+    {
+        "name": "Thunderclient.com",
+        "description": "Thunder Client is a lightweight API testing tool for Visual Studio Code. It offers an intuitive interface for making requests, validating responses, and managing collections, ideal for developers and teams.",
+        "logo_url": "https://avatars.githubusercontent.com/u/164544218?s=200&v=4",
+        "store_link": "https://www.thunderclient.com/",
+        "button_name": "Visit Website"
+    },
+    {
         "name": "edamam.com",
         "description": "Edamam provides nutrition analysis, recipe search, and meal planning tools. It offers APIs for developers to access detailed food data, calorie counts, and dietary information for various needs.",
         "logo_url": "https://cdn-icons-png.flaticon.com/512/2164/2164832.png",

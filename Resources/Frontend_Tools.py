@@ -4,13 +4,6 @@ content = "Explore tools for frontend development."
 # List of extensions with descriptions and Chrome Web Store links
 FRONTEND_TOOLS = [
     {
-        "name": "Dribbble.com",
-        "description": "Dribbble is a creative community and platform where designers can share their work, showcase portfolios, and collaborate on design projects, fostering inspiration and networking opportunities within the design industry.",
-        "logo_url": "https://cdni.iconscout.com/illustration/premium/thumb/astronautenlandung-auf-dem-mond-6129606-5036997.png",
-        "store_link": "https://dribbble.com",
-        "button_name": "Visit Website"
-    },
-    {
         "name": "CSS Loaders",
         "description": "This website offers customizable CSS loader animations designed to enhance website user interfaces and experiences, adding visually engaging elements during page loading and improving overall site interaction.",
         "logo_url": "https://cdni.iconscout.com/illustration/premium/thumb/astronautenlandung-auf-dem-mond-6129606-5036997.png",

@@ -96,4 +96,18 @@ VSCODE_EXTENSIONS = [
         "store_link": "https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode",
         "button_name": "Visit Website"
     },
+    {
+        "name": "Qodo.ai",
+        "description": "Qodo AI offers an AI-driven platform that helps businesses automate tasks, improve decision-making, and streamline operations. It leverages machine learning for smarter solutions and enhanced productivity.",
+        "logo_url": "https://www.qodo.ai/wp-content/uploads/2025/02/qodo-logo.svg",
+        "store_link": "https://www.qodo.ai/",
+        "button_name": "Visit Website"
+    },
+    {
+        "name": "Thunderclient.com",
+        "description": "Thunder Client is a lightweight API testing tool for Visual Studio Code. It offers an intuitive interface for making requests, validating responses, and managing collections, ideal for developers and teams.",
+        "logo_url": "https://avatars.githubusercontent.com/u/164544218?s=200&v=4",
+        "store_link": "https://www.thunderclient.com/",
+        "button_name": "Visit Website"
+    }
 ]
