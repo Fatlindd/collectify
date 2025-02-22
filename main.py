@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Import the resources dynamically based on selected menu
-from Resources import home, Api_Free, Chrome_Extensions, Frontend_Tools, Icons_Website, Python_And_AI, React, Django, VSCode_Extensions, Web_Scraping, style, Useful_Websites, Programming_Tools, Youtube_Tutorials, Web_Design, Artificial_Intelligence, Chatgpt_prompts
+from Resources import home, Api_Free, Chrome_Extensions, Frontend_Tools, Icons_Website, Python, React, Django, VSCode_Extensions, Web_Scraping, style, Useful_Websites, Programming_Tools, Youtube_Tutorials, Web_Design, Artificial_Intelligence, Chatgpt_prompts
 
 # Set Streamlit layout to wide mode
 st.set_page_config(page_title="Useful Tools", page_icon=":zap:", layout="wide")
@@ -14,7 +14,7 @@ PAGE_MODULES = {
     "Chrome Extensions": Chrome_Extensions,
     "FrontEnd Tools": Frontend_Tools,
     "Icons Website": Icons_Website,
-    "Python_And_AI": Python_And_AI,
+    "Python": Python,
     "React": React,
     "Django": Django,
     "VSCode Extensions": VSCode_Extensions,
@@ -96,8 +96,8 @@ if selected in PAGE_MODULES:
         display_tools(Chrome_Extensions, Chrome_Extensions.CHROME_EXTENSIONS, style.STYLE_CSS)
     elif selected == "FrontEnd Tools":
         display_tools(Frontend_Tools, Frontend_Tools.FRONTEND_TOOLS, style.STYLE_CSS)
-    elif selected == "Python_And_AI":
-        display_tools(Python_And_AI, Python_And_AI.PYTHON_TOOLS, style.STYLE_CSS)
+    elif selected == "Python":
+        display_tools(Python, Python.PYTHON_TOOLS, style.STYLE_CSS)
     elif selected == "Icons Website":
         display_tools(Icons_Website, Icons_Website.ICONS_WEBSITE_TOOLS, style.STYLE_CSS)
     elif selected == "React":

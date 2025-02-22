@@ -6,13 +6,6 @@ content = "Python libraries and resources to boost your projects."
 # List of extensions with descriptions and Chrome Web Store links
 PYTHON_TOOLS = [
     {
-        "name": "Copycoder.ai",
-        "description": "CopyCoder.ai is an AI tool that assists developers in generating and optimizing code snippets, significantly improving coding efficiency and productivity by automating repetitive tasks and suggesting better code practices.",
-        "logo_url": "https://miro.medium.com/v2/resize:fit:1000/0*cOqooDOsnb8jDm2G.png",
-        "store_link": "https://copycoder.ai/",
-         "button_name": "More Details"
-    },
-    {
         "name": "urlparse",
         "description": "The urlparse function from Python's urllib.parse module breaks down a URL into its components (scheme, netloc, path, etc.), providing an easy way to analyze and manipulate different parts of a URL.",
         "logo_url": "https://miro.medium.com/v2/resize:fit:1000/0*cOqooDOsnb8jDm2G.png",
