@@ -5,6 +5,13 @@ content = "Some useful websites that can help us in different purposes."
 # List of extensions with descriptions and Chrome Web Store links
 USEFUL_WEBSITE = [
     {
+        "name": "mockuuups.studio",
+        "description": "Mockuuups Studio is an online platform that allows users to create realistic mockups for digital products, providing a vast library of customizable templates to showcase apps, websites, and designs.",
+        "logo_url": "https://png.pngtree.com/png-vector/20241021/ourmid/pngtree-3d-innovative-robot-with-earth-globe-design-on-transparent-background-png-image_14106884.png",
+        "store_link": "https://mockuuups.studio/",
+        "button_name": "Visit Website"
+    },
+    {
         "name": "coursevania.com",
         "description": "Coursevania is a platform offering free online courses across various fields, including development, business, and IT, providing certificates upon completion to help learners build skills and advance their careers.",
         "logo_url": "https://png.pngtree.com/png-vector/20241021/ourmid/pngtree-3d-innovative-robot-with-earth-globe-design-on-transparent-background-png-image_14106884.png",

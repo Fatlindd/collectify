@@ -40,6 +40,7 @@ with st.sidebar:
         default_index=0
     )
 
+
 # Helper function to display tools (used for Free API, Chrome Extensions, etc.)
 def display_tools(page_module, tools_list, custom_css):
     # Inject custom CSS
@@ -68,7 +69,7 @@ def display_tools(page_module, tools_list, custom_css):
                 <div class="card">
                     <img src="{tool['logo_url']}" alt="{tool['name']} logo">
                     <div class="card-title">{tool['name']}</div>
-                    <div class="card-description">{tool['description']}</div>
+                    <div class="card-description">{ tool['description'] }</div>
                     <div class="card-footer">
                         <a href="{tool['store_link']}" target="_blank">
                             <button class="card-button">{tool['button_name']}</button>
@@ -110,7 +111,7 @@ if selected in PAGE_MODULES:
         display_tools(Web_Scraping, Web_Scraping.WEB_SCRAPING, style.STYLE_CSS)
     elif selected == 'Useful Websites':
         display_tools(Useful_Websites, Useful_Websites.USEFUL_WEBSITE, style.STYLE_CSS)
-    elif selected == 'Programmin Tools':
+    elif selected == 'Programming Tools':
         display_tools(Programming_Tools, Programming_Tools.PROGRAMMING_TOOLS, style.STYLE_CSS)
     elif selected == 'Youtube Tutorials':
         display_tools(Youtube_Tutorials, Youtube_Tutorials.YOUTUBE_TUTORIALS, style.STYLE_CSS)

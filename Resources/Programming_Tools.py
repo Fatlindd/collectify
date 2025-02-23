@@ -5,6 +5,13 @@ content = "These are some programming tools that I used."
 
 PROGRAMMING_TOOLS = [
     {
+        "name": "replit.com",
+        "description": "Replit.com is an online platform that allows users to write, run, and share code in various programming languages directly in the browser, providing an interactive environment for coding and collaboration.",
+        "logo_url": "https://cdn.freelogovectors.net/svg18/replit_logo-freelogovectors.net.svg",
+        "store_link": "https://replit.com/",
+        "button_name": "More Details"
+    },
+    {
         "name": "Visual Studio Code",
         "description": "A powerful editor used to write and debug code for various programming languages.",
         "logo_url": "https://code.visualstudio.com/assets/images/code-stable.png",

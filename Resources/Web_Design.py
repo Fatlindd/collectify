@@ -93,5 +93,19 @@ WEB_DESIGN = [
         "logo_url": "https://cdn3d.iconscout.com/3d/premium/thumb/web-development-3d-illustration-download-in-png-blend-fbx-gltf-file-formats--html-logo-technology-design-pack-business-illustrations-4496032.png?f=webp",
         "store_link": "https://jitter.video/",
         "button_name": "Visit Website"
-    }
+    },
+    {
+        "name": "supercolorpalette.com",
+        "description": "Super Color Palette is a tool that helps users generate and explore color palettes for design projects. It offers various color combinations and options to create visually appealing and harmonious palettes.",
+        "logo_url": "https://cdn3d.iconscout.com/3d/premium/thumb/web-development-3d-illustration-download-in-png-blend-fbx-gltf-file-formats--html-logo-technology-design-pack-business-illustrations-4496032.png?f=webp",
+        "store_link": "https://supercolorpalette.com/",
+        "button_name": "Visit Website"
+    },
+    {
+        "name": "skelementor.com",
+        "description": "Skelementor is a platform offering over 1,000 pre-made, customizable components for Elementor users, designed to help build professional websites quickly. It includes layouts like headers, footers, and testimonials, updated weekly, saving time and effort for designers, freelancers, and entrepreneurs. Visit Skelementor for more details.",
+        "logo_url": "https://cdn3d.iconscout.com/3d/premium/thumb/web-development-3d-illustration-download-in-png-blend-fbx-gltf-file-formats--html-logo-technology-design-pack-business-illustrations-4496032.png?f=webp",
+        "store_link": "https://skelementor.com/",
+        "button_name": "Visit Website"
+    },
 ]
