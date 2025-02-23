@@ -107,5 +107,5 @@ WEB_DESIGN = [
         "logo_url": "https://cdn3d.iconscout.com/3d/premium/thumb/web-development-3d-illustration-download-in-png-blend-fbx-gltf-file-formats--html-logo-technology-design-pack-business-illustrations-4496032.png?f=webp",
         "store_link": "https://skelementor.com/",
         "button_name": "Visit Website"
-    },
+    }
 ]
