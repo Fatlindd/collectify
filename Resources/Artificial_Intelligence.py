@@ -4,6 +4,13 @@ content = "Discover the latest advancements in AI, from machine learning to natu
 # List of extensions with details and 15-word descriptions
 ARTIFICIAL_INTELLIGENCE = [
     {
+        "name": "grok.com",
+        "description": "Innovative, AI-driven, user-friendly, sleek, modern, informative, futuristic, tech-savvy, engaging, accessible – grok.com showcases xAI’s mission to advance human discovery with style and clarity!",
+        "logo_url": "https://cdn3d.iconscout.com/3d/premium/thumb/artificial-intelligence-brain-3d-icon-download-in-png-blend-fbx-gltf-file-formats--ai-mind-pack-science-technology-icons-6020297.png?f=webp",
+        "store_link": "https://grok.com",
+        "button_name": "Visit Website"
+    },
+    {
         "name": "lovable.dev",
         "description": "Lovable.dev is an AI-powered platform that transforms natural language descriptions into fully functional web applications, enabling users to build, edit, and deploy software rapidly without coding expertise.",
         "logo_url": "https://cdn3d.iconscout.com/3d/premium/thumb/artificial-intelligence-brain-3d-icon-download-in-png-blend-fbx-gltf-file-formats--ai-mind-pack-science-technology-icons-6020297.png?f=webp",
