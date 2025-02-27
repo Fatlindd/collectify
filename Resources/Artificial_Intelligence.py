@@ -5,7 +5,7 @@ content = "Discover the latest advancements in AI, from machine learning to natu
 ARTIFICIAL_INTELLIGENCE = [
     {
         "name": "grok.com",
-        "description": "Innovative, AI-driven, user-friendly, sleek, modern, informative, futuristic, tech-savvy, engaging, accessible – grok.com showcases xAI’s mission to advance human discovery with style and clarity!",
+        "description": "Innovative, AI-driven, user-friendly, sleek, modern, informative, futuristic, tech-savvy, engaging, accessible – grok.com showcases xAI’s mission to advance human discovery with style and clarity.",
         "logo_url": "https://cdn3d.iconscout.com/3d/premium/thumb/artificial-intelligence-brain-3d-icon-download-in-png-blend-fbx-gltf-file-formats--ai-mind-pack-science-technology-icons-6020297.png?f=webp",
         "store_link": "https://grok.com",
         "button_name": "Visit Website"
