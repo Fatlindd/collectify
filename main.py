@@ -122,6 +122,3 @@ if selected in PAGE_MODULES:
     elif selected == 'ChatGPT Prompts':
         display_tools(Chatgpt_prompts, Chatgpt_prompts.CHATGPT_PROMPTS, style.STYLE_CSS)
 
-
-
-        
