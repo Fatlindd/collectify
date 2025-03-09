@@ -1,9 +1,48 @@
 title = "Chrome Extensions for Developers"
 content = "A list of useful Chrome extensions for development."
 
-
 # List of extensions with descriptions and Chrome Web Store links
 CHROME_EXTENSIONS = [
+    {
+        "name": "CSS Peeper",
+        "description": "CSS Peeper is a Chrome extension that helps designers inspect and extract CSS styles effortlessly. It provides font details, colors, spacing, and assets without digging through the code, streamlining UI analysis.",
+        "logo_url": "https://lh3.googleusercontent.com/0JNrZ9H--GDqNJFCtbsufPB6gSnwBKofKMTQbkdFA9_OHIQ_vDcNoaY-z0mhcPVEoAciwF9s7iBXmBuiIBcyy3cAHCc=s120",
+        "store_link": "https://chromewebstore.google.com/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk",
+        "button_name": "Visit Website"
+    }
+    ,
+    {
+        "name": "Heurio",
+        "description": "Heurio is a Chrome extension for UX/UI reviews, enabling teams to leave comments, report issues, and collaborate on website designs in real time. It’s great for designers, developers, and testers.",
+        "logo_url": "https://lh3.googleusercontent.com/efhCir8oK_ty6IrEp1nvtMCLDB1FroM1eo04OiZWn7Cssb58qCNT_K9C8oNRkzT_2xF5dXP8Qy9WUuKmhK_sTvouhVE=s120",
+        "store_link": "https://chromewebstore.google.com/detail/heurio-one-click-bug-repo/pjdbofhiijhapnmpgilkeammkanglfdj",
+        "button_name": "Visit Website"
+    }
+    ,
+    {
+        "name": "SVG Grabber Extesnion",
+        "description": "SVG Grabber is a Chrome extension that lets you quickly find, preview, and download SVG assets from any website. It’s useful for designers and developers who need to extract vector graphics easily.",
+        "logo_url": "https://lh3.googleusercontent.com/-vWq48Ul_DMc6BULH3hOzZdkK0xCRTpyagKN_-ZOSKzNNG076q5VAf2z64U1aCQOdpfMltAXpaZ3zvSrf1mBTzh1fz0=s120",
+        "store_link": "https://chromewebstore.google.com/detail/svg-grabber-get-all-the-s/eafjmnaiohflfhelegodfedimibnjpgp",
+        "button_name": "Visit Website"
+    }
+    ,
+    {
+        "name": "Dark Mode",
+        "description": "Fonts Ninja supports dark mode, making it easier on the eyes when identifying fonts in low-light environments. It enhances readability and provides a seamless experience for designers and developers.",
+        "logo_url": "https://lh3.googleusercontent.com/eH5ZCNRT_cW0cIWlJZ9YBEKgKexeXla6fI06ELiGCU0JE7z3ZxoZIkn2Rfp1KQBE4E9-uwtwkXe-YK1R_6qVJxCJ=s120",
+        "store_link": "https://chromewebstore.google.com/detail/dark-mode/dmghijelimhndkbmpgbldicpogfkceaj",
+        "button_name": "Visit Website"
+    }
+    ,
+    {
+        "name": "Fonts Ninja",
+        "description": "Fonts Ninja is a Chrome extension that lets you identify fonts on any website instantly. It provides font names, sizes, spacing, and download links, helping designers and developers explore typography easily.",
+        "logo_url": "https://lh3.googleusercontent.com/FFs5IGsMq5As7MBo1TfKPWs5bAzCJsnXwtW1BrgOp6VuQUVRR3zYbocoPkYYfrayeO20VomUy8LJZ2TAInCIAEQO=s120",
+        "store_link": "https://chromewebstore.google.com/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh",
+        "button_name": "Visit Website"
+    }
+    ,
     {
         "name": "Affilitizer",
         "description": "Highlights advertisers with affiliate programs directly within Google Search result pages and the address bar, providing users with immediate insights to optimize affiliate opportunities and strategies effectively.",

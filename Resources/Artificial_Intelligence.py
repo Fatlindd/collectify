@@ -5,6 +5,13 @@ content = "Discover the latest advancements in AI, from machine learning to natu
 ARTIFICIAL_INTELLIGENCE = [
     {
         "name": "grok.com",
+        "description": "Grok AI is an AI-powered chatbot developed by xAI, a company founded by Elon Musk. It is designed to provide witty, real-time, and context-aware responses, with access to live internet data via X (formerly Twitter).",
+        "logo_url": "https://cdn3d.iconscout.com/3d/premium/thumb/artificial-intelligence-brain-3d-icon-download-in-png-blend-fbx-gltf-file-formats--ai-mind-pack-science-technology-icons-6020297.png?f=webp",
+        "store_link": "https://x.ai/",
+        "button_name": "Visit Website"
+    },
+    {
+        "name": "grok.com",
         "description": "Innovative, AI-driven, user-friendly, sleek, modern, informative, futuristic, tech-savvy, engaging, accessible – grok.com showcases xAI’s mission to advance human discovery with style and clarity.",
         "logo_url": "https://cdn3d.iconscout.com/3d/premium/thumb/artificial-intelligence-brain-3d-icon-download-in-png-blend-fbx-gltf-file-formats--ai-mind-pack-science-technology-icons-6020297.png?f=webp",
         "store_link": "https://grok.com",
