@@ -7,7 +7,6 @@ from Resources.style import STYLE_CSS  # Import your custom CSS
 # Set Streamlit layout to wide mode
 st.set_page_config(page_title="Useful Tools", page_icon=":zap:", layout="wide")
 
-
 class CollectifySheetReader:
     """
     A class to read, filter, and update data from a specified worksheet
