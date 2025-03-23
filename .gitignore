@@ -170,5 +170,4 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-./Resources/collectify_credentials.json
-/Resources
+Resources/credentials.json

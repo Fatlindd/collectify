@@ -14,7 +14,7 @@ class CollectifySheetReader:
     """
     SPREADSHEET_TITLE = "Collectify"
 
-    def __init__(self, worksheet_name="collectify_data", creds_path='Resources/collectify_credentials.json',
+    def __init__(self, worksheet_name="collectify_data", creds_path='Resources/credentials.json',
                  scope=None):
         """
         Parameters:
